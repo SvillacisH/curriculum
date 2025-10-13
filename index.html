@@ -29,7 +29,7 @@
     <nav>
         <ul>
             <li><a href="#resumen">Resumen</a></li> <!--Video de sobre mi-->
-            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#referencias">Referencias</a></li>
             <li><a href="#educacion">Educacion</a></li> <!--Mapa de la institucion-->
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li> <!--Imagenes de proyectos-->
@@ -57,8 +57,8 @@
         </section>
 
 
-        <section id="testimonios">
-            <h2 class="subtitle">Testimonios</h2>
+        <section id="referencias">
+            <h2 class="subtitle">Referencias</h2>
             <ul>
                 <li>
                     <figure>
@@ -166,21 +166,21 @@
 
             <form action="/submit-contact" method="POST">
 
-                <div class="form-group">
-                    <label for="nombre">Tu Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez">
-                </div>
 
-                <div class="form-group">
-                    <label for="motivo">Motivo de Contacto:</label>
-                    <select id="motivo" name="motivo" required>
-                        <option value="" disabled selected>Selecciona una opción</option>
-                        <option value="trabajo">Oferta de Empleo</option>
-                        <option value="freelance">Proyecto Freelance</option>
-                        <option value="consulta">Consulta General</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </div>
+                <label for="nombre">Tu Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez">
+
+
+
+                <label for="motivo">Motivo de Contacto:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="trabajo">Oferta de Empleo</option>
+                    <option value="freelance">Proyecto Freelance</option>
+                    <option value="consulta">Consulta General</option>
+                    <option value="otro">Otro</option>
+                </select>
+
 
                 <fieldset class="form-group">
                     <legend>¿Cómo me encontraste?</legend>
@@ -208,15 +208,15 @@
                     </label>
                 </fieldset>
 
-                <div class="form-group">
-                    <label for="mensaje">Tu Mensaje Detallado:</label>
-                    <textarea id="mensaje" name="mensaje" rows="6" required
-                        placeholder="Escribe aquí tu consulta o propuesta..."></textarea>
-                </div>
 
-                <div class="form-group">
-                    <button type="submit">Enviar Mensaje</button>
-                </div>
+                <label for="mensaje">Tu Mensaje Detallado:</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required
+                    placeholder="Escribe aquí tu consulta o propuesta..."></textarea>
+
+
+
+                <button type="submit">Enviar Mensaje</button>
+
 
             </form>
 
